@@ -30,5 +30,5 @@ fi
 
 if [[ $DEPLOY == 1 ]]
 then
-    aws cloudformation deploy --template-file packaged-template.json --stack-name upb-cb-cf --capabilities CAPABILITY_NAMED_IAM
+    aws cloudformation deploy --template-file packaged-template.json --stack-name my-users-app --capabilities CAPABILITY_NAMED_IAM
 fi

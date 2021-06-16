@@ -1,7 +1,5 @@
-
 #!/bin/bash
 DEPLOYMENT_BUCKET="bucketlabdos"
-STACK_NAME="movies-app"
 
 while getopts ":bdp" OPTION; do
     case $OPTION in

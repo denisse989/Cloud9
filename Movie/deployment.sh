@@ -1,6 +1,6 @@
 
 #!/bin/bash
-DEPLOYMENT_BUCKET="bucketlabdos"
+DEPLOYMENT_BUCKET="bucketlados"
 STACK_NAME="movies-app"
 
 while getopts ":bdp" OPTION; do
